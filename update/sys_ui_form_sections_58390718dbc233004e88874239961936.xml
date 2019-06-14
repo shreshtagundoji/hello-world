@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="58390718dbc233004e88874239961936" sys_domain="global" table="x_366640_sriinduit_shreshta" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 10:10:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98390718dbc233004e88874239961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_366640_sriinduit_shreshta" name="x_366640_sriinduit_shreshta" sys_domain="global" view="Default view">58390718dbc233004e88874239961936</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_366640_sriinduit_shreshta" sys_domain="global" view="Default view">1fb00390dbc233004e88874239961959</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:10:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 10:10:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54390718dbc233004e88874239961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_366640_sriinduit_shreshta" name="x_366640_sriinduit_shreshta" sys_domain="global" view="Default view">58390718dbc233004e88874239961936</sys_ui_form>
+            <sys_ui_section caption="work" display_value="work" name="x_366640_sriinduit_shreshta" sys_domain="global" view="Default view">1c39c318dbc233004e88874239961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:10:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_366640_sriinduit_shreshta</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-11 10:10:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58390718dbc233004e88874239961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_366640_sriinduit_shreshta</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_58390718dbc233004e88874239961936</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:10:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>col</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test on change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var ctype=g.form.getValue('sicet disk');
+	alert(ctype);
+	if(contype=='email')
+		{
+			
+		}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 10:17:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fde25838db0273004e888742399619d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test on change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_script_client_fde25838db0273004e888742399619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-13 06:40:45</sys_updated_on>
+        <table>x_366640_sriinduit_incident_log</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

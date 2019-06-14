@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>this set will be useful in the case of software item</description>
+        <display_title>false</display_title>
+        <internal_name>software_set</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 08:01:47</sys_created_on>
+        <sys_id>dd2577a0dbce33004e8887423996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>software set</sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>item_option_new_set_dd2577a0dbce33004e8887423996199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 08:01:47</sys_updated_on>
+        <title>software set</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

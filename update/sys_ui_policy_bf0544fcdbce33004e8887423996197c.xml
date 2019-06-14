@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_366640_sriinduit_incident_log">sriindu_short_descriptionNOT LIKE1^EQ<item endquery="false" field="sriindu_short_description" goto="false" newquery="false" operator="NOT LIKE" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>make short description</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-12 09:18:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf0544fcdbce33004e8887423996197c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>make short description</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_ui_policy_bf0544fcdbce33004e8887423996197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-12 09:43:50</sys_updated_on>
+        <table>x_366640_sriinduit_incident_log</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

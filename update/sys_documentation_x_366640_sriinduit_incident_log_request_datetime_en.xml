@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_datetime" label="request datetime" language="en" table="x_366640_sriinduit_incident_log">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_datetime</element>
+            <help/>
+            <hint/>
+            <label>request datetime</label>
+            <language>en</language>
+            <name>x_366640_sriinduit_incident_log</name>
+            <plural>request datetimes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-13 09:56:48</sys_created_on>
+            <sys_id>4d491d09db4e73004e8887423996191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>request datetime</sys_name>
+            <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+            <sys_update_name>sys_documentation_x_366640_sriinduit_incident_log_request_datetime_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-13 09:56:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

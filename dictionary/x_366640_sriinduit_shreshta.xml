@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="shreshta" max_length="40" name="x_366640_sriinduit_shreshta" type="collection">
+        <element label="name of user" max_length="25" name="name_of_user" reference="sys_user" reference_qual="last_nameENDSWITHa^EQ" reference_qual_condition="last_nameENDSWITHa^EQ" type="glide_list"/>
+        <element choice="1" label="phone" max_length="10" name="phone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="land line" sequence="0" value="land line"/>
+                <element inactive_on_update="false" label="mobile" sequence="1" value="mobile"/>
+                <element inactive_on_update="false" label="fax" sequence="2" value="fax"/>
+            </choice>
+        </element>
+        <element choice="1" label="user name" max_length="32" name="user_name" reference="sys_user" reference_qual="first_nameSTARTSWITHs^EQ" reference_qual_condition="first_nameSTARTSWITHs^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="work done" max_length="100" name="work_done" type="journal"/>
+    </element>
+</database>
