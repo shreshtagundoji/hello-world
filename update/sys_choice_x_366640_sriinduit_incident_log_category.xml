@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="contype" table="x_366640_sriinduit_incident_log" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_366640_sriinduit_incident_log" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>contype</element>
+            <element>category</element>
             <hint/>
             <inactive>true</inactive>
             <label>-- New choice --</label>
@@ -10,87 +10,68 @@
             <name>x_366640_sriinduit_incident_log</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-11 07:21:40</sys_created_on>
+            <sys_created_on>2019-06-14 05:26:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0d92ea5cdb4233004e88874239961917</sys_id>
+            <sys_id>5ae4edd9dbc6b3004e888742399619ed</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-11 07:24:14</sys_updated_on>
+            <sys_updated_on>2019-06-14 05:27:20</sys_updated_on>
             <value>-- New choice --</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>contype</element>
+            <element>category</element>
             <hint/>
             <inactive>false</inactive>
-            <label>email</label>
+            <label>hardware</label>
             <language>en</language>
             <name>x_366640_sriinduit_incident_log</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-11 07:24:14</sys_created_on>
+            <sys_created_on>2019-06-14 05:27:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6a23a29cdb4233004e8887423996194a</sys_id>
+            <sys_id>a725691ddbc6b3004e8887423996199b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-11 07:24:14</sys_updated_on>
-            <value>email</value>
+            <sys_updated_on>2019-06-14 05:27:20</sys_updated_on>
+            <value>hardware</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>contype</element>
+            <element>category</element>
             <hint/>
             <inactive>false</inactive>
-            <label>phoneno</label>
+            <label>software</label>
             <language>en</language>
             <name>x_366640_sriinduit_incident_log</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-11 07:24:14</sys_created_on>
+            <sys_created_on>2019-06-14 05:27:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6623e29cdb4233004e8887423996196a</sys_id>
+            <sys_id>6325691ddbc6b3004e8887423996199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-11 07:24:14</sys_updated_on>
-            <value>phoneno</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>contype</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>fax</label>
-            <language>en</language>
-            <name>x_366640_sriinduit_incident_log</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-11 07:24:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>2223e29cdb4233004e8887423996196c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-11 07:24:14</sys_updated_on>
-            <value>fax</value>
+            <sys_updated_on>2019-06-14 05:27:20</sys_updated_on>
+            <value>software</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>contype</element>
+            <element>category</element>
             <name>x_366640_sriinduit_incident_log</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-11 07:21:40</sys_created_on>
-            <sys_id>1d4e5995dbc6b3004e88874239961944</sys_id>
+            <sys_created_on>2019-06-14 05:26:10</sys_created_on>
+            <sys_id>d2e4edd9dbc6b3004e888742399619ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>contype</sys_name>
+            <sys_name>category</sys_name>
             <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
             <sys_policy/>
             <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
-            <sys_update_name>sys_choice_x_366640_sriinduit_incident_log_contype</sys_update_name>
+            <sys_update_name>sys_choice_x_366640_sriinduit_incident_log_category</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-11 07:21:40</sys_updated_on>
+            <sys_updated_on>2019-06-14 05:26:10</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

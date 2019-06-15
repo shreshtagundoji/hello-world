@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_366640_sriinduit.HelloWorld</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>HelloWorld</name>
+        <script><![CDATA[var HelloWorld = Class.create();
+HelloWorld.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+ HelloWorld:function(){
+	var HelloWorld = Class.create();
+HelloWorld.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+   HelloWorld:function() { return "Hello " + this.getParameter('sysparm_user_name') + "!"; } ,
+   _privateFunction: function() { // this function is not client callable     
+    }
+ });
+},
+	
+	
+	type: 'HelloWorld'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-15 05:08:27</sys_created_on>
+        <sys_id>8f4966e1db06f3004e888742399619f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HelloWorld</sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_script_include_8f4966e1db06f3004e888742399619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-15 05:17:37</sys_updated_on>
+    </sys_script_include>
+</record_update>

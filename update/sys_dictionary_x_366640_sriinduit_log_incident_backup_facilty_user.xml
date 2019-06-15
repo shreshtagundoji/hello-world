@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_366640_sriinduit_shreshta">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="facilty_user" table="x_366640_sriinduit_log_incident_backup">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>facilty user</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,20 +27,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>facilty_user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_366640_sriinduit_shreshta</name>
+        <max_length>32</max_length>
+        <name>x_366640_sriinduit_log_incident_backup</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-11 09:29:24</sys_created_on>
-        <sys_id>bb3e9595dbc6b3004e88874239961998</sys_id>
+        <sys_created_on>2019-06-15 04:51:55</sys_created_on>
+        <sys_id>0c66e66ddbc2f3004e88874239961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_366640_sriinduit_shreshta</sys_name>
+        <sys_name>facilty user</sys_name>
         <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
         <sys_policy/>
         <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
-        <sys_update_name>sys_dictionary_x_366640_sriinduit_shreshta_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-06-14 04:57:06</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_366640_sriinduit_log_incident_backup_facilty_user</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-15 04:51:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

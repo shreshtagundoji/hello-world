@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="column" label="col" language="en" table="x_366640_sriinduit_incident_log">
+    <sys_documentation element="facilty_user" label="facilty user" language="en" table="x_366640_sriinduit_log_incident_backup">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>column</element>
+            <element>facilty_user</element>
             <help/>
             <hint/>
-            <label>col</label>
+            <label>facilty user</label>
             <language>en</language>
-            <name>x_366640_sriinduit_incident_log</name>
-            <plural>cols</plural>
+            <name>x_366640_sriinduit_log_incident_backup</name>
+            <plural>facilty users</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-11 05:20:03</sys_created_on>
-            <sys_id>af3e9595dbc6b3004e88874239961960</sys_id>
+            <sys_created_on>2019-06-15 04:51:55</sys_created_on>
+            <sys_id>12a66a61db06f3004e888742399619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>col</sys_name>
+            <sys_name>facilty user</sys_name>
             <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
             <sys_policy/>
             <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
-            <sys_update_name>sys_documentation_x_366640_sriinduit_incident_log_column_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_366640_sriinduit_log_incident_backup_facilty_user_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-11 05:20:03</sys_updated_on>
+            <sys_updated_on>2019-06-15 04:51:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

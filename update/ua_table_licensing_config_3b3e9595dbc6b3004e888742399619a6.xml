@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-11 09:29:25</sys_created_on>
-        <sys_id>48df7e50dbc233004e8887423996192f</sys_id>
+        <sys_id>3b3e9595dbc6b3004e888742399619a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_366640_sriinduit_shreshta</sys_name>
         <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
         <sys_policy/>
         <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_48df7e50dbc233004e8887423996192f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_3b3e9595dbc6b3004e888742399619a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-06-11 09:29:25</sys_updated_on>
     </ua_table_licensing_config>
