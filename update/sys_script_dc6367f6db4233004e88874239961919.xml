@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_366640_sriinduit_incident_log</collection>
+        <collection>x_366640_sriinduit_log_incident_backup</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>comparedatetime</name>
+        <name>commerial reference</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,37 +28,54 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	try { 
+ var s = new sn_ws.SOAPMessageV2('x_366640_sriinduit.testing ', 'insert');
+
+//override authentication profile 
+//authentication type ='basic'
+//r.setAuthentication(authentication type,profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ s.setStringParameterNoEscape('insert.template_import_log', '');
+				
+s.setStringParameterNoEscape('insert.u_short_description','current.short_description');	
+
+ s.setStringParameterNoEscape('insert.import_set_run', '');
+ var response = s.execute();
+ var responseBody = response.getBody(); 
+ var status = response.getStatusCode();
+}
+catch(ex) { 
+ var message = ex.message;
+}
 
 	// Add your code here
-	var retdate = new GlideDateTime(current.return_datetime);
-var reqdate = new GlideDateTime(current.request_datetime);
-
- 
-var diff=retdate.compareTo(reqdate);
-	if(diff==-1)
-{
-	gs.addErrorMessage("the req date cant be greater return date ");
-	current.setAbortAction(true);
-}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-13 09:28:38</sys_created_on>
+        <sys_created_on>2019-06-19 06:34:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d1429181db4e73004e88874239961937</sys_id>
+        <sys_id>dc6367f6db4233004e88874239961919</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name>comparedatetime</sys_name>
+        <sys_name>commerial reference</sys_name>
         <sys_overrides/>
         <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
         <sys_policy/>
         <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
-        <sys_update_name>sys_script_d1429181db4e73004e88874239961937</sys_update_name>
+        <sys_update_name>sys_script_dc6367f6db4233004e88874239961919</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-13 10:01:14</sys_updated_on>
-        <template/>
-        <when>before</when>
+        <sys_updated_on>2019-06-19 06:58:58</sys_updated_on>
+        <template>short_description=^EQ</template>
+        <when>async</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=d1429181db4e73004e88874239961937"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc6367f6db4233004e88874239961919"/>
 </record_update>

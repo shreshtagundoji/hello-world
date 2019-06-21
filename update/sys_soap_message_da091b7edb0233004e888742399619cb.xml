@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message">
+    <sys_soap_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="basic auth anu">e87b5372db4233004e888742399619fc</basic_auth_profile>
+        <basic_auth_user/>
+        <description/>
+        <download_wsdl>true</download_wsdl>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <name>testing </name>
+        <protocol_profile/>
+        <sys_class_name>sys_soap_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 05:48:43</sys_created_on>
+        <sys_id>da091b7edb0233004e888742399619cb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>testing </sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_soap_message_da091b7edb0233004e888742399619cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 05:55:59</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <wsdl>https://dev52586.service-now.com/x_366643_sriinduit_ws_publish.do?WSDL</wsdl>
+        <wsdl_xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://www.service-now.com/x_366643_sriinduit_ws_publish" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.service-now.com/x_366643_sriinduit_ws_publish" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="unqualified" targetNamespace="http://www.service-now.com/x_366643_sriinduit_ws_publish"><xsd:element name="getKeys"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_class_name" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_row" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_set" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state_comment" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_mod_count" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_row_error" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_table" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_transform_map" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__use_view" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__encoded_query" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__limit" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__first_row" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__last_row" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="getKeysResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="unbounded" minOccurs="0" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="count" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="get"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="1" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__use_view" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="getResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_class_name" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_row" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_set" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state_comment" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_mod_count" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_row_error" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_table" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_transform_map" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="getRecords"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_class_name" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_row" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_set" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state_comment" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_mod_count" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_row_error" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_table" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_transform_map" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__use_view" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__encoded_query" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__limit" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__first_row" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__last_row" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__order_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__order_by_desc" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="__exclude_columns" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="getRecordsResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="unbounded" minOccurs="0" name="getRecordsResult"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_class_name" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_row" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_set" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state_comment" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_mod_count" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_row_error" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_table" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_transform_map" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="update"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="1" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="updateResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="sys_id" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="insert"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="insertResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="1" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="table" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="display_name" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="display_value" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="1" name="status" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="status_message" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="error_message" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="map" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="deleteMultiple"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="import_set_run" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_class_name" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_created_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_row" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_set" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_import_state_comment" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_mod_count" type="xsd:integer"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_row_error" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_sys_id" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_target_table" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_transform_map" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_by" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="sys_updated_on" type="xsd:string"/><xsd:element maxOccurs="1" minOccurs="0" name="template_import_log" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="deleteMultipleResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="count" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="deleteRecord"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="1" name="sys_id" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element><xsd:element name="deleteRecordResponse"><xsd:complexType><xsd:sequence><xsd:element maxOccurs="1" minOccurs="0" name="count" type="xsd:string"/></xsd:sequence></xsd:complexType></xsd:element></xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getKeysSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:getKeys">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:getResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRecordsSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:getRecords">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteMultipleSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:deleteMultipleResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="insertSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:insert">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:updateResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRecordsSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:getRecordsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteMultipleSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:deleteMultiple">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="insertSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:insertResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteRecordSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:deleteRecord">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getKeysSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:getKeysResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteRecordSoapOut">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:deleteRecordResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:get">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateSoapIn">
+    <wsdl:part name="x_366643_sriinduit_ws_publish" element="tns:update">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ServiceNowSoap">
+    <wsdl:operation name="insert">
+      <wsdl:input message="tns:insertSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:insertSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input message="tns:updateSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:updateSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteMultiple">
+      <wsdl:input message="tns:deleteMultipleSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:deleteMultipleSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <wsdl:input message="tns:getKeysSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:getKeysSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteRecord">
+      <wsdl:input message="tns:deleteRecordSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:deleteRecordSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get">
+      <wsdl:input message="tns:getSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:getSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRecords">
+      <wsdl:input message="tns:getRecordsSoapIn">
+    </wsdl:input>
+      <wsdl:output message="tns:getRecordsSoapOut">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceNowSoap" type="tns:ServiceNowSoap">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="insert">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/insert" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/update" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteMultiple">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/deleteMultiple" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getKeys">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/getKeys" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteRecord">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/deleteRecord" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/get" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getRecords">
+      <soap:operation soapAction="http://www.service-now.com/x_366643_sriinduit_ws_publish/getRecords" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceNow_x_366643_sriinduit_ws_publish">
+    <wsdl:port name="ServiceNowSoap" binding="tns:ServiceNowSoap">
+      <soap:address location="https://dev52586.service-now.com/x_366643_sriinduit_ws_publish.do?SOAP"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
+]]></wsdl_xml>
+    </sys_soap_message>
+</record_update>

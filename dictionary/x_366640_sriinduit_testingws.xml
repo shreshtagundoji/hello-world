@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="testingws" max_length="40" name="x_366640_sriinduit_testingws" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_desc" label="Desc" max_length="40" name="u_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_facilty_user" label="Facilty user" max_length="40" name="u_facilty_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_paytm_account" label="Paytm account" max_length="40" name="u_paytm_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_short_description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>

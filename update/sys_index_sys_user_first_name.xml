@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>first_name</col_name_string>
+        <index_col_name element="first_name" name="sys_user">9d2899307420330078509adcc48c87be</index_col_name>
+        <logical_table_name>sys_user</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-06-17 10:01:14</sys_created_on>
+        <sys_id>78a0021adbce37004e888742399619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_index_sys_user_first_name</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-17 10:01:14</sys_updated_on>
+        <table display_value="User" name="sys_user">592899307420330078509adcc48c87b7</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="log incident backup" max_length="40" name="x_366640_sriinduit_log_incident_backup" type="collection">
+        <element label="desc" max_length="100" name="desc" type="string"/>
         <element label="facilty user" max_length="32" name="facilty_user" reference="sys_user" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="paytm account" max_length="40" name="paytm_account" type="boolean"/>

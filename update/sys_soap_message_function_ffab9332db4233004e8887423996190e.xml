@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:x="http://www.service-now.com/x_366643_sriinduit_ws_publish">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <x:deleteMultiple>
+         <!--Optional:-->
+         <import_set_run>${deleteMultiple.import_set_run}</import_set_run>
+         <!--Optional:-->
+         <sys_class_name>${deleteMultiple.sys_class_name}</sys_class_name>
+         <!--Optional:-->
+         <sys_created_by>${deleteMultiple.sys_created_by}</sys_created_by>
+         <!--Optional:-->
+         <sys_created_on>${deleteMultiple.sys_created_on}</sys_created_on>
+         <!--Optional:-->
+         <sys_id>${deleteMultiple.sys_id}</sys_id>
+         <!--Optional:-->
+         <sys_import_row>${deleteMultiple.sys_import_row}</sys_import_row>
+         <!--Optional:-->
+         <sys_import_set>${deleteMultiple.sys_import_set}</sys_import_set>
+         <!--Optional:-->
+         <sys_import_state>${deleteMultiple.sys_import_state}</sys_import_state>
+         <!--Optional:-->
+         <sys_import_state_comment>${deleteMultiple.sys_import_state_comment}</sys_import_state_comment>
+         <!--Optional:-->
+         <sys_mod_count>${deleteMultiple.sys_mod_count}</sys_mod_count>
+         <!--Optional:-->
+         <sys_row_error>${deleteMultiple.sys_row_error}</sys_row_error>
+         <!--Optional:-->
+         <sys_target_sys_id>${deleteMultiple.sys_target_sys_id}</sys_target_sys_id>
+         <!--Optional:-->
+         <sys_target_table>${deleteMultiple.sys_target_table}</sys_target_table>
+         <!--Optional:-->
+         <sys_transform_map>${deleteMultiple.sys_transform_map}</sys_transform_map>
+         <!--Optional:-->
+         <sys_updated_by>${deleteMultiple.sys_updated_by}</sys_updated_by>
+         <!--Optional:-->
+         <sys_updated_on>${deleteMultiple.sys_updated_on}</sys_updated_on>
+         <!--Optional:-->
+         <template_import_log>${deleteMultiple.template_import_log}</template_import_log>
+      </x:deleteMultiple>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>deleteMultiple</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>testing  [ deleteMultiple ]</qualified_name>
+        <soap_action>http://www.service-now.com/x_366643_sriinduit_ws_publish/deleteMultiple</soap_action>
+        <soap_endpoint>https://dev52586.service-now.com/x_366643_sriinduit_ws_publish.do?SOAP</soap_endpoint>
+        <soap_message display_value="testing ">da091b7edb0233004e888742399619cb</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 05:56:00</sys_created_on>
+        <sys_id>ffab9332db4233004e8887423996190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deleteMultiple</sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_soap_message_function_ffab9332db4233004e8887423996190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 05:56:00</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

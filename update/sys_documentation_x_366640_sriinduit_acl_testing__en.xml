@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="ACL testing" language="en" table="x_366640_sriinduit_acl_testing">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>ACL testing</label>
+            <language>en</language>
+            <name>x_366640_sriinduit_acl_testing</name>
+            <plural>ACL testings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-18 05:47:23</sys_created_on>
+            <sys_id>88205e26db8a77004e8887423996191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ACL testing</sys_name>
+            <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+            <sys_update_name>sys_documentation_x_366640_sriinduit_acl_testing__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-18 05:47:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>we are creating incident and emailing&#13;
+assign: Bow Ruggeri</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</from>
+        <name>create log incident</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+current.caller_id = gs.getUserID();
+current.comments = "received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = email.subject;
+
+current.category = "inquiry";
+current.incident_state = IncidentState.NEW;
+current.notify = 2;
+current.contact_type = "email";
+
+if (email.body.assign != undefined)
+   current.assigned_to = email.body.assign;
+
+if (email.importance != undefined) {
+   if (email.importance.toLowerCase() == "high") {
+		current.impact = 1;
+		current.urgency = 1;
+   }
+}
+
+current.insert();
+	
+
+	// Implement email action here
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-15 11:56:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c32c0fddbc6f3004e888742399619ae</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>create log incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sysevent_in_email_action_2c32c0fddbc6f3004e888742399619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 06:36:28</sys_updated_on>
+        <table>x_366640_sriinduit_incident_log</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="log incident" max_length="40" name="x_366640_sriinduit_incident_log" sizeclass="11" type="collection">
+    <element extends="task" label="log incident" max_length="40" name="x_366640_sriinduit_incident_log" sizeclass="138842" type="collection">
         <element label="affected user" max_length="32" name="affected_user" reference="sys_user" reference_qual="time_zone=^EQ" reference_qual_condition="time_zone=^EQ" type="reference"/>
         <element choice="1" label="Category" max_length="25" name="category" type="choice">
             <choice>
@@ -18,6 +18,7 @@
                 <element inactive_on_update="false" label="fax" sequence="2" value="fax"/>
             </choice>
         </element>
+        <element label="desc" max_length="100" name="desc" type="string"/>
         <element display="true" label="jour" max_length="100" name="jour" read_only="true" type="journal"/>
         <element label="paytm account" max_length="40" name="paytm_account" type="boolean"/>
         <element label="request datetime" max_length="40" name="request_datetime" type="glide_date_time"/>

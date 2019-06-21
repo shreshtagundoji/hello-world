@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_last_name" label="last_name" language="en" table="x_366640_sriinduit_indian_team">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_last_name</element>
+            <help/>
+            <hint/>
+            <label>last_name</label>
+            <language>en</language>
+            <name>x_366640_sriinduit_indian_team</name>
+            <plural>last_names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-17 06:06:43</sys_created_on>
+            <sys_id>65fa4556db4e37004e8887423996198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>last_name</sys_name>
+            <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+            <sys_update_name>sys_documentation_x_366640_sriinduit_indian_team_u_last_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-17 06:06:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

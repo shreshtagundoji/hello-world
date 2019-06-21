@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:x="http://www.service-now.com/x_366643_sriinduit_ws_publish_2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <x:getKeys>
+         <!--Optional:-->
+         <import_set_run>${getKeys.import_set_run}</import_set_run>
+         <!--Optional:-->
+         <sys_class_name>${getKeys.sys_class_name}</sys_class_name>
+         <!--Optional:-->
+         <sys_created_by>${getKeys.sys_created_by}</sys_created_by>
+         <!--Optional:-->
+         <sys_created_on>${getKeys.sys_created_on}</sys_created_on>
+         <!--Optional:-->
+         <sys_import_row>${getKeys.sys_import_row}</sys_import_row>
+         <!--Optional:-->
+         <sys_import_set>${getKeys.sys_import_set}</sys_import_set>
+         <!--Optional:-->
+         <sys_import_state>${getKeys.sys_import_state}</sys_import_state>
+         <!--Optional:-->
+         <sys_import_state_comment>${getKeys.sys_import_state_comment}</sys_import_state_comment>
+         <!--Optional:-->
+         <sys_mod_count>${getKeys.sys_mod_count}</sys_mod_count>
+         <!--Optional:-->
+         <sys_row_error>${getKeys.sys_row_error}</sys_row_error>
+         <!--Optional:-->
+         <sys_target_sys_id>${getKeys.sys_target_sys_id}</sys_target_sys_id>
+         <!--Optional:-->
+         <sys_target_table>${getKeys.sys_target_table}</sys_target_table>
+         <!--Optional:-->
+         <sys_transform_map>${getKeys.sys_transform_map}</sys_transform_map>
+         <!--Optional:-->
+         <sys_updated_by>${getKeys.sys_updated_by}</sys_updated_by>
+         <!--Optional:-->
+         <sys_updated_on>${getKeys.sys_updated_on}</sys_updated_on>
+         <!--Optional:-->
+         <template_import_log>${getKeys.template_import_log}</template_import_log>
+         <!--Optional:-->
+         <u_description>${getKeys.u_description}</u_description>
+         <!--Optional:-->
+         <__use_view>${getKeys.__use_view}</__use_view>
+         <!--Optional:-->
+         <__encoded_query>${getKeys.__encoded_query}</__encoded_query>
+         <!--Optional:-->
+         <__limit>${getKeys.__limit}</__limit>
+         <!--Optional:-->
+         <__first_row>${getKeys.__first_row}</__first_row>
+         <!--Optional:-->
+         <__last_row>${getKeys.__last_row}</__last_row>
+      </x:getKeys>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>getKeys</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>Testing 2 [ getKeys ]</qualified_name>
+        <soap_action>http://www.service-now.com/x_366643_sriinduit_ws_publish_2/getKeys</soap_action>
+        <soap_endpoint>https://dev52586.service-now.com/x_366643_sriinduit_ws_publish_2.do?SOAP</soap_endpoint>
+        <soap_message display_value="Testing 2">e5a9118bdb0e33004e88874239961902</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 15:07:24</sys_created_on>
+        <sys_id>09e9998fdb0e33004e888742399619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getKeys</sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_soap_message_function_09e9998fdb0e33004e888742399619a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 15:07:24</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

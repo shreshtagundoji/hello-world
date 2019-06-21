@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="WS  new" max_length="40" name="x_366640_sriinduit_ws_new" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_short_description" label="short description" max_length="40" name="u_short_description" type="string"/>
+    </element>
+</database>

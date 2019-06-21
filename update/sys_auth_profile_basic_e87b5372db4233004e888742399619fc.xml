@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>basic auth anu</name>
+        <password>rflXdzAe68DLegs59qa6rg==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 05:55:26</sys_created_on>
+        <sys_id>e87b5372db4233004e888742399619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>basic auth anu</sys_name>
+        <sys_package display_value="sriinduIT" source="x_366640_sriinduit">38db39d0db0233004e8887423996195d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sriinduIT">38db39d0db0233004e8887423996195d</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_e87b5372db4233004e888742399619fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 05:55:26</sys_updated_on>
+        <username>admin</username>
+    </sys_auth_profile_basic>
+</record_update>
